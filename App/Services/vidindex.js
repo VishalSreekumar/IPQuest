@@ -1,5 +1,5 @@
 import {request,gql} from 'graphql-request'
-const MASTER_URL=""
+const MASTER_URL="https://api-ap-south-1.hygraph.com/v2/clrs2h9s603fr01w1skp19229/master"
 //Your Hygraph backend key for accessing required functionalities
 
 export const getVideoList = async(tags)=>{
