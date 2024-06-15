@@ -37,7 +37,7 @@ export default function App() {
   return (
     <ClerkProvider 
     tokenCache={tokenCache}
-    publishableKey={""}>
+    publishableKey={"pk_test_Ym9zcy1icmVhbS04OS5jbGVyay5hY2NvdW50cy5kZXYk"}>
       {/* Your Clerk API key for authentication purposes .*/}
       {/* <UserPointsContext.Provider value={{userPoints,setUserPoints}=useContext(UserPointsContext)}> */}
     <View style={styles.container}>
